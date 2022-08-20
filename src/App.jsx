@@ -1,12 +1,9 @@
 import React from "react";
+import List from "./List";
 
 function App(){
-    <>
-<ol>
-    <li>abc</li>
-    <li>bcd</li>
-
-</ol>
-</>
-};
+    return(
+<List/>
+    );
+}
 export default App;
